@@ -1,0 +1,146 @@
+
+body{
+    background-image: url(./img/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: auto;
+    background-attachment: scroll;
+
+
+
+}
+/* ---------Navigation Bar -----*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 28px;
+    padding: 10px;
+    margin-bottom: 250px;
+}
+
+nav img{
+    width: 161px;
+    height: 32px;
+    margin-left: 180px;
+}
+
+.navbr{
+    display: flex;
+    flex-direction: row;
+    gap: 41px;
+    margin-left: 470px;
+    margin-top: 10px;
+}
+
+.navbr li{
+    list-style-type: none;   
+}
+
+.navbr li a{
+    text-decoration: none; 
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+}
+.navbr li a:hover{
+    color: #FF6565;
+}
+
+/* <!-- --------Header with font and button------ --> */
+
+.mid{
+    text-align: center;
+    margin-bottom: 110px;
+}
+
+.mid div h2{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.mid div p{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+
+button{
+    width: 162px;
+    height: 44px;
+    border: solid 1px #FF6565;
+    border-radius: 22px;
+    color: #FFFFFF;
+    background-color: #FF6565;
+    margin-bottom: 40px;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+.mid p{
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;}
+
+
+    @media screen and (max-width: 1000px){
+
+        nav img{
+            margin-left: 110px;
+        }
+
+        .navbr{
+            margin-left: 300px;
+        }
+        
+    }
+
+    @media screen and (max-width: 940px){
+
+        nav img{
+            margin-left: 100px;
+        }
+
+        .navbr{
+            margin-left: 200px;
+        }
+        
+    }
+
+    @media screen and (max-width: 810px){
+
+        nav img{
+            margin-left: 50px;
+        }
+
+        .navbr{
+            margin-left: 220px;
+        }
+        
+    }
+
+    @media screen and (max-width: 770px){
+
+        nav img{
+            margin-left: 40px;
+        }
+
+        .navbr{
+            margin-left: 150px;
+        }
+        
+    }
+
+    

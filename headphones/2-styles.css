@@ -1,0 +1,108 @@
+/* <!-- ----------Our Results ------------ --> */
+.bg{
+    width:1348px ;
+    height: 650px;
+    background-image: url(./img/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    margin: -8px;
+}
+
+.our{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+        
+}
+
+.our h2{
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-top: 160px;
+    margin-bottom: 30px;
+}
+
+.our p{
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.shape{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 50px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 60px;
+
+    
+}
+
+.shape img{
+    width: 180px;
+    height: 180px;
+}
+
+.shape h1{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 46px; 
+    position: absolute;
+    left: 45px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.shape p{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;  
+    margin-top: 120px;
+    position: absolute;
+    left: 45px;   
+    
+}
+
+.da{
+    margin-left: 160px;
+   
+  }
+
+.daa{
+  margin-left: 450px;
+ 
+}
+.daaa{
+    margin-left: 730px;
+
+    
+}
+.daaaa{
+    margin-left: 1010px;
+}
+
+.ga{
+    margin-left: 160px;
+   
+  }
+
+
+.gaa{
+    margin-left: 440px;
+   
+  }
+  .gaaa{
+    margin-left: 720px;
+  
+      
+  }
+  .gaaaa{
+      margin-left: 1000px;
+  }

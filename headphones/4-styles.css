@@ -1,0 +1,842 @@
+/* :root{
+    link hover color:#FF6565 ;
+    button hover color:opacity: 0.9;
+} */
+
+/*--------- Background----- */
+
+body{
+    background-image: url(./img/headphones_hero_1.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    background-attachment: scroll;
+
+}
+/* ---------Navigation Bar -----*/
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-top: 28px;
+    padding: 10px;
+    margin-bottom: 250px;
+}
+
+nav img{
+    width: 161px;
+    height: 32px;
+    margin-left: 180px;
+}
+
+.navbr{
+    display: flex;
+    flex-direction: row;
+    gap: 41px;
+    margin-left: 470px;
+    margin-top: 10px;
+}
+
+.navbr li{
+    list-style-type: none;   
+}
+
+.navbr li a{
+    text-decoration: none; 
+    font-size: 12px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+}
+.navbr li a:hover{
+    color: #FF6565;
+}
+
+/* <!-- --------Header with font and button------ --> */
+
+.mid{
+    text-align: center;
+    margin-bottom: 200px;
+}
+
+.mid div h2{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+
+.mid div p{
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    margin-top: 0px;
+    margin-bottom: 35px;
+    line-height: 1.5;
+}
+
+button{
+    width: 162px;
+    height: 44px;
+    border: solid 1px #FF6565;
+    border-radius: 22px;
+    color: #FFFFFF;
+    background-color: #FF6565;
+    margin-bottom: 40px;
+}
+
+button:hover{
+    opacity: 0.9;
+}
+
+.mid p{
+    color: #FFFFFF;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.5;
+
+}
+
+
+/* <!-- ----------What we do ------------ --> */
+
+.wedo{
+    text-align: center;
+    margin-bottom: 97px;
+}
+
+.wedo h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.wedo p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 60px;
+    margin-bottom: 110px;
+
+}
+
+.gees img{
+    width: 95px;
+    height: 66px;
+
+}
+
+
+.gees h4{
+    font-size: 18px;
+    font-weight: normal;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.gees p{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.geev img{
+    width: 68px;
+    height: 77px;
+
+}
+
+
+.geev h4{
+    font-size: 18px;
+    font-weight: normal;
+    font-weight: 600;
+    margin-top: 13px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.geev p{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.geem img{
+    width: 52px;
+    height: 58px;
+
+}
+
+
+.geem h4{
+    font-size: 18px;
+    font-weight: normal;
+    font-weight: 600;
+    margin-top: 32px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.geem p{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.geeh img{
+    width: 62px;
+    height: 62px;
+
+}
+
+
+
+.geeh h4{
+    font-size: 18px;
+    font-weight: normal;
+    font-weight: 600;
+    margin-top: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.geeh p{
+    font-size: 14px;
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* <!-- ----------Our Results ------------ --> */
+.bg{
+    height: 650px;
+    background-image: url(./img/headphones_hero_2.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: cover;
+    background-attachment: scroll;
+    margin: -8px;
+}
+
+.our{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+        
+}
+
+.our h2{
+    font-weight: normal;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 32px;
+    margin-top: 160px;
+    margin-bottom: 30px;
+}
+
+.our p{
+    line-height: 1.5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.shape{
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    gap: 50px;
+    justify-content: center;
+    margin-left: 80px;
+    margin-top: 60px;
+
+    
+}
+
+.shape img{
+    width: 180px;
+    height: 180px;
+}
+
+.shape h1{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 46px; 
+    position: absolute;
+    left: 45px;
+    margin-top: 55px;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+.shape p{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFFFFF;
+    font-size: 14px;  
+    margin-top: 120px;
+    position: absolute;
+    left: 45px;   
+    
+}
+
+.da{
+    margin-left: 180px;
+   
+  }
+
+.daa{
+  margin-left: 460px;
+ 
+}
+.daaa{
+    margin-left: 740px;
+
+    
+}
+.daaaa{
+    margin-left: 1020px;
+}
+
+.ga{
+    margin-left: 180px;
+   
+  }
+
+
+.gaa{
+    margin-left: 465px;
+   
+  }
+  .gaaa{
+    margin-left: 745px;
+  
+      
+  }
+  .gaaaa{
+      margin-left: 1025px;
+  }
+
+
+  /* <!-- ----------Contact Us ------------ --> */
+
+  .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 110px;
+    margin-bottom: 130px;
+    
+  }
+.contact h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    font-weight: normal;
+    font-weight: 500;
+}
+
+.data{
+    width: 335px;
+    height: 29px;
+    position: relative;
+    
+}
+
+.data input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size: 12px;
+    border-bottom: 2px solid  #0716296c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.data input:focus~label, .data input:valid~label{
+    transform: translateY(-20px);
+    font-size: 15px;
+    color: #071629;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.data label{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    color: #071629;
+    pointer-events: none;
+    transition: all 0.3s ease;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+/* <!-- ----------Footer ------------ --> */
+
+.footer{
+
+    height: 249px;
+    background-color: #071629;
+    margin: -8px;
+    
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.foot img{
+    margin-top: 100px;
+}
+.logo2{
+width: 161px;
+height: 32px;
+margin-right: 600px;
+}
+
+.socials a{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+
+}
+
+
+.pi{
+    color: #FFFFFF;
+    font-size: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+@media screen and (max-width:1400px) {
+    nav img{
+        margin-left: 150px;
+    }
+
+    .navbr{
+        margin-left: 500px;
+    }
+    
+}
+
+@media screen and (max-width:1200px) {
+    nav img{
+        margin-left: 150px;
+    }
+
+    .navbr{
+        margin-left: 350px;
+    }
+
+    .shape{
+        gap: 30px;
+    }
+
+    .oga .ga{
+        margin-left: 155px;
+    }
+
+    .oga .gaa{
+        margin-left: 395px;
+    }
+
+    .oga .gaaa{
+        margin-left: 632px;
+    }
+
+    .oga .gaaaa{
+        margin-left: 875px;
+    }
+
+    .oga .daa{
+        margin-left: 400px;
+    }
+
+    .oga .daaa{
+        margin-left: 650px;
+    }
+
+    .oga .daaaa{
+        margin-left: 880px;
+    }   
+}
+
+@media screen and (max-width:1009px) {
+    nav img{
+        margin-left: 120px;
+    }
+
+    .navbr{
+        margin-left: 300px;
+    }
+
+    nav{
+        margin-bottom: 150px;
+    }
+
+    .mid{
+        margin-bottom: 50px;
+    }
+
+    .our h2{
+        margin-top: 90px;
+    }
+
+    .oga .ga{
+        margin-left: 50px;
+    }
+
+    .oga .gaa{
+        margin-left: 290px;
+    }
+
+    .oga .gaaa{
+        margin-left: 530px;
+    }
+
+    .oga .gaaaa{
+        margin-left: 770px;
+    }
+
+
+    .oga .da{
+        margin-left: 65px;
+    }
+
+    .oga .daa{
+        margin-left: 300px;
+    }
+
+    .oga .daaa{
+        margin-left: 540px;
+    }
+
+    .oga .daaaa{
+        margin-left: 780px;
+    }
+
+    .shape{
+        margin-left: 65px;
+    
+        
+    }
+
+
+    
+}
+
+@media screen and (max-width:900px) {
+
+    nav{
+        margin-bottom: 140px;
+    }
+
+nav img{
+    margin-left: 100px;
+}
+
+
+.navbr{
+    margin-left: 180px;
+}   
+
+.mid{
+    margin-bottom: 90px;
+}
+
+
+.mid div p{
+    margin-bottom: 25px;
+}
+
+button{
+    margin-bottom: 20px;
+}
+
+.mid{
+    margin-bottom: 0px;
+}
+
+ .oga .da{
+        margin-left: 55px;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .oga .daa{
+        margin-left: 270px;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .oga .daaa{
+        margin-left: 480px;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .oga .daaaa{
+        margin-left: 690px;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+
+  .oga .ga{
+        margin-left: 55px;
+        font-size: 11px;
+    }
+
+    .oga .gaa{
+        margin-left: 265px;
+        font-size: 11px;
+    }
+
+    .oga .gaaa{
+        margin-left: 475px;
+        font-size: 11px;
+    }
+
+    .oga .gaaaa{
+        margin-left: 685px;
+        font-size: 11px;
+    }
+
+
+    .shape img{
+    width: 150px;
+    height: 150px;
+}
+
+.logo2{
+margin-right: 400px;
+}   
+}
+
+@media screen and (max-width:780px) {
+
+    nav{
+        margin-bottom: 70px;
+    }
+
+nav img{
+    margin-left: 40px;
+}
+
+
+.navbr{
+    margin-left: 180px;
+}   
+
+.mid{
+    margin-bottom: 90px;
+}
+
+
+.mid div p{
+    margin-bottom: 25px;
+}
+
+button{
+    margin-bottom: 20px;
+}
+
+.mid{
+    margin-bottom: 0px;
+}
+
+ .oga .da{
+        margin-left: 150px;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .oga .daa{
+        margin-left: 430px;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .oga .daaa{
+        margin-left: 150px;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    .oga .daaaa{
+        margin-left: 440px;
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+
+  .oga .ga{
+        margin-left: 145px;
+        font-size: 11px;
+    }
+
+    .oga .gaa{
+        margin-left: 435px;
+        font-size: 11px;
+    }
+
+    .oga .gaaa{
+        margin-left: 145px;
+        font-size: 11px;
+    }
+
+    .oga .gaaaa{
+        margin-left: 435px;
+        font-size: 11px;
+    }
+
+
+    .shape img{
+    width: 150px;
+    height: 150px;
+}
+
+.logo2{
+margin-right: 350px;
+}   
+
+.flex{
+    flex-wrap: wrap;
+    gap: 150px;
+}
+
+.shape{
+    flex-wrap: wrap;
+    gap: 70px;
+    margin-top: 35px;
+   
+}
+
+.flex{
+    margin-bottom: 80px;
+}
+
+.our h2{
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.our p{
+    margin-bottom: 0px;
+}
+
+}
+
+@media screen and (max-width:480px) {
+
+    nav{
+        margin-bottom: 45px;
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+nav img{
+    align-self: center;
+}
+
+
+.navbr{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-self: center;
+    gap: 25px;
+    margin-left: 20px;
+}   
+
+
+ .oga .da{
+        margin-left: 150px;
+    }
+
+    .oga .daa{
+        margin-left: 150px;
+    }
+
+    .oga .daaa{
+        margin-left: 150px;
+    
+    }
+    
+    
+    .oga .daaaa{
+        margin-left: 150px;
+    
+    }
+
+
+  .oga .ga{
+        margin-left: 140px;
+    }
+
+    .oga .gaa{
+        margin-left: 140px;
+    }
+
+    .oga .gaaa{
+        margin-left: 140px;
+    }
+
+    .oga .gaaaa{
+        margin-left: 140px;
+    }
+
+
+.logo2{
+margin-right: 130px;
+}   
+
+
+.our h2{
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.our p{
+    margin-bottom: 60px;
+    font-size: 13px;
+}
+
+body{
+    background-image: url(./img/headphones_hero_1.jpg);
+    background-position: top bottom;
+    background-repeat: no-repeat;
+    background-size: 480px 700px;
+}
+
+.bg{
+    height: 1300px;
+
+}
+}
+
