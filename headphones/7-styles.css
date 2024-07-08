@@ -9,11 +9,50 @@
     font-weight: 400;
     margin-top: 100px;
 }
-.wedo h2:hover{
-    transform: scale(1.3);
-    z-index: 6;
-    color: #FF6565;
+
+.wedo h2{
+    position: absolute;
+    top: -13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
+
+.wedo h2 span{
+    display: inline-block;
+    opacity: 0;
+    transform: translate(-155px, 0) scale(0, 4);
+    animation: aminate .5s forwards;
+
+}
+
+.wedo h2 span:nth-of-type(2){
+    animation-delay: 1ms;
+}
+
+.wedo h2 span:nth-of-type(3){
+    animation-delay: 1.5ms;
+}
+
+.wedo h2 span:nth-of-type(4){
+    animation-delay: 2ms;
+}
+
+@keyframes aminate{
+    40%{
+        transform: translate(50px, 0);
+        opacity: 1;
+    }
+    80%{
+        transform: translate(0) scale(2);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translate(0) scale(1);
+        opacity: 1;
+    }
+}
+
 
 .wedo p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -159,10 +198,56 @@
     margin-bottom: 30px;
 }
 
-.our h2:hover{
-    transform: scale(1.3);
-    z-index: 7;
-    color: #FF6565;
+
+.our h2{
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.our h2 span{
+    display: inline-block;
+    opacity: 0;
+    transform: translate(-155px, 0) scale(0, 4);
+    animation: aminate .5s forwards;
+
+}
+
+.our h2 span:nth-of-type(2){
+    animation-delay: 1ms;
+}
+
+.our h2 span:nth-of-type(3){
+    animation-delay: 1.5ms;
+}
+
+.our h2 span:nth-of-type(4){
+    animation-delay: 2ms;
+}
+
+.our h2 span:nth-of-type(4){
+    animation-delay: 2.5ms;
+}
+
+.our h2 span:nth-of-type(4){
+    animation-delay: 4.5ms;
+}
+
+@keyframes aminate{
+    40%{
+        transform: translate(50px, 0);
+        opacity: 1;
+    }
+    80%{
+        transform: translate(0) scale(2);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translate(0) scale(1);
+        opacity: 1;
+    }
 }
 
 .our p{
@@ -170,6 +255,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #FFFFFF;
     font-size: 16px;
+    margin-top: 70px;
 }
 
 .shape{
